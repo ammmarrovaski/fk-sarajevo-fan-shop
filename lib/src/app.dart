@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'flavor_config/flavors.dart';
-import '../pages/login_page.dart'; // Import koji si već dodao, super!
+import 'pages/login_page.dart'; // Import koji si već dodao, super!
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -16,7 +16,7 @@ class App extends StatelessWidget {
         useMaterial3: true, // Moderniji izgled elemenata
       ),
       // Umjesto starog Scaffold-a, samo stavi LoginPage
-      home: const LoginPage(), 
+      home:  LoginPage(), 
     );
   }
 }
