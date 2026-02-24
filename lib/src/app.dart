@@ -4,8 +4,8 @@ import 'package:get_it/get_it.dart';
 
 import 'flavor_config/flavors.dart';
 import 'app_router/app_pages.dart';
-import 'features/auth/data/repositories/auth_repository.dart';
-import 'features/auth/presentation/bloc/auth_cubit.dart';
+import 'features/common/auth/auth_repository.dart';
+import 'features/common/auth/auth_cubit.dart';
 
 class App extends StatelessWidget {
   const App({super.key});

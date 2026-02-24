@@ -1,4 +1,4 @@
-import '../../../app_user/domain/models/app_user_model.dart';
+import '../app_user/app_user_model.dart';
 
 enum UserProfileStatus {
   initial,

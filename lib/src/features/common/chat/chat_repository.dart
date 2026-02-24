@@ -1,6 +1,6 @@
-import '../data_sources/chat_data_source.dart';
-import '../../domain/models/chat_model.dart';
-import '../../domain/models/message_model.dart';
+import 'chat_data_source.dart';
+import 'chat_model.dart';
+import 'message_model.dart';
 
 class ChatRepository {
   final ChatDataSource chatDataSource;

@@ -6,10 +6,10 @@ import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
 
-import '../../../auth/presentation/bloc/auth_cubit.dart';
-import '../../../app_user/data/repositories/user_repository.dart';
-import '../bloc/user_profile_cubit.dart';
-import '../bloc/user_profile_state.dart';
+import '../auth/auth_cubit.dart';
+import '../app_user/user_repository.dart';
+import 'user_profile_cubit.dart';
+import 'user_profile_state.dart';
 
 class EditProfilePage extends StatelessWidget {
   const EditProfilePage({super.key});

@@ -4,12 +4,12 @@ import 'package:get_it/get_it.dart';
 import 'package:go_router/go_router.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
-import '../../../../app_router/app_routes.dart';
-import '../../../auth/presentation/bloc/auth_cubit.dart';
-import '../../data/repositories/articles_repository.dart';
-import '../../domain/models/article_model.dart';
-import '../bloc/articles_cubit.dart';
-import '../bloc/articles_state.dart';
+import '../../../app_router/app.routes.dart';
+import '../auth/auth_cubit.dart';
+import 'articles_repository.dart';
+import 'article_model.dart';
+import 'articles_cubit.dart';
+import 'articles_state.dart';
 
 class ArticlesListPage extends StatelessWidget {
   const ArticlesListPage({super.key});

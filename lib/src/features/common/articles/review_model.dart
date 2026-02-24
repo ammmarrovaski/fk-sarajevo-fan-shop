@@ -1,16 +1,11 @@
-import 'package:dart_mappable/dart_mappable.dart';
-
-part 'review_model.mapper.dart';
-
-@MappableClass()
-class Review with ReviewMappable {
+class Review {
   final String id;
   final String articleId;
-  final String reviewerId;     // Ko je ostavio dojam
+  final String reviewerId;
   final String reviewerName;
-  final String sellerId;       // Za koga je dojam
+  final String sellerId;
   final String message;
-  final int rating;            // 1-5
+  final int rating;
   final DateTime createdAt;
 
   const Review({

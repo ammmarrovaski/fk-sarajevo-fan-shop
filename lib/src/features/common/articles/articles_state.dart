@@ -1,4 +1,4 @@
-import '../../domain/models/article_model.dart';
+import 'article_model.dart';
 
 enum ArticlesStatus {
   initial,

@@ -1,10 +1,6 @@
-import 'package:dart_mappable/dart_mappable.dart';
-import '../enums/article_status.dart';
+import 'article_status.dart';
 
-part 'article_model.mapper.dart';
-
-@MappableClass()
-class Article with ArticleMappable {
+class Article {
   final String id;
   final String title;
   final String description;

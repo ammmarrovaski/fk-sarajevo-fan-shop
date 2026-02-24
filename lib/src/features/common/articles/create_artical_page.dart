@@ -5,10 +5,10 @@ import 'package:get_it/get_it.dart';
 import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
 
-import '../../../auth/presentation/bloc/auth_cubit.dart';
-import '../../data/repositories/articles_repository.dart';
-import '../bloc/articles_cubit.dart';
-import '../bloc/articles_state.dart';
+import '../auth/auth_cubit.dart';
+import 'articles_repository.dart';
+import 'articles_cubit.dart';
+import 'articles_state.dart';
 
 class CreateArticlePage extends StatelessWidget {
   const CreateArticlePage({super.key});

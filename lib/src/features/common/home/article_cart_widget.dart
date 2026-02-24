@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../articles/domain/models/article_model.dart';
+import '../articles/article_model.dart';
 
 class ArticleCardWidget extends StatelessWidget {
   final ArticleModel article;

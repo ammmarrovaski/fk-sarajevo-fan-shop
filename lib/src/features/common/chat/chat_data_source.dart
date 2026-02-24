@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import '../../domain/models/chat_model.dart';
-import '../../domain/models/message_model.dart';
+import 'chat_model.dart';
+import 'message_model.dart';
 
 class ChatDataSource {
   final FirebaseFirestore firestore;

@@ -1,9 +1,4 @@
-import 'package:dart_mappable/dart_mappable.dart';
-
-part 'app_user_model.mapper.dart';
-
-@MappableClass()
-class AppUser with AppUserMappable {
+class AppUser {
   final String id;
   final String email;
   final String firstName;

@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 
-import '../data_sources/auth_data_source.dart';
-import '../../../app_user/data/data_sources/user_data_source.dart';
-import '../../../app_user/domain/models/app_user_model.dart';
+import 'auth_data_source.dart';
+import '../app_user/user_data_source.dart';
+import '../app_user/app_user_model.dart';
 
 class AuthRepository {
   final AuthDataSource authDataSource;

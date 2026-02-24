@@ -4,14 +4,14 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:get_it/get_it.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
-import 'features/auth/data/data_sources/auth_data_source.dart';
-import 'features/auth/data/repositories/auth_repository.dart';
-import 'features/app_user/data/data_sources/user_data_source.dart';
-import 'features/app_user/data/repositories/user_repository.dart';
-import 'features/articles/data/data_sources/articles_data_source.dart';
-import 'features/articles/data/repositories/articles_repository.dart';
-import 'features/chat/data/data_sources/chat_data_source.dart';
-import 'features/chat/data/repositories/chat_repository.dart';
+import 'features/common/auth/auth_data_source.dart';
+import 'features/common/auth/auth_repository.dart';
+import 'features/common/app_user/user_data_source.dart';
+import 'features/common/app_user/user_repository.dart';
+import 'features/common/articles/articles_data_source.dart';
+import 'features/common/articles/articles_repository.dart';
+import 'features/common/chat/chat_data_source.dart';
+import 'features/common/chat/chat_repository.dart';
 
 final getIt = GetIt.instance;
 

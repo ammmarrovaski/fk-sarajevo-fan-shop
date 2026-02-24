@@ -4,9 +4,9 @@ import 'package:get_it/get_it.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:intl/intl.dart';
 
-import '../../../app_user/data/repositories/user_repository.dart';
-import '../bloc/user_profile_cubit.dart';
-import '../bloc/user_profile_state.dart';
+import '../app_user/user_repository.dart';
+import 'user_profile_cubit.dart';
+import 'user_profile_state.dart';
 
 /// Prikaz profila drugog korisnika (read-only)
 class OtherUserProfilePage extends StatelessWidget {

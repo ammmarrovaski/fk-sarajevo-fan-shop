@@ -2,8 +2,8 @@ import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
-import '../../domain/models/article_model.dart';
-import '../../domain/models/review_model.dart';
+import 'article_model.dart';
+import 'review_model.dart';
 
 class ArticlesDataSource {
   final FirebaseFirestore firestore;

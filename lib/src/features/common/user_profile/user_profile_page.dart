@@ -5,12 +5,12 @@ import 'package:go_router/go_router.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:intl/intl.dart';
 
-import '../../../../app_router/app_routes.dart';
-import '../../../auth/presentation/bloc/auth_cubit.dart';
-import '../../../auth/presentation/bloc/auth_state.dart';
-import '../../../app_user/data/repositories/user_repository.dart';
-import '../bloc/user_profile_cubit.dart';
-import '../bloc/user_profile_state.dart';
+import '../../../app_router/app.routes.dart';
+import '../auth/auth_cubit.dart';
+import '../auth/auth_state.dart';
+import '../app_user/user_repository.dart';
+import 'user_profile_cubit.dart';
+import 'user_profile_state.dart';
 
 class UserProfilePage extends StatelessWidget {
   const UserProfilePage({super.key});

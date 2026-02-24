@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:get/get.dart';
+import 'package:go_router/go_router.dart';
 
-import '../../domain/models/article_model.dart';
-import '../bloc/articles_cubit.dart';
-import '../bloc/articles_state.dart';
-import '../../../../app_router/app_routes.dart';
+import 'article_model.dart';
+import 'articles_cubit.dart';
+import 'articles_state.dart';
+import '../../../app_router/app.routes.dart';
 
 class MyArticlesPage extends StatefulWidget {
   const MyArticlesPage({super.key});

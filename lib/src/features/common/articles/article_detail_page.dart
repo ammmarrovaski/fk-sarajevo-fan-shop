@@ -5,12 +5,12 @@ import 'package:go_router/go_router.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:intl/intl.dart';
 
-import '../../../../app_router/app_routes.dart';
-import '../../../auth/presentation/bloc/auth_cubit.dart';
-import '../../data/repositories/articles_repository.dart';
-import '../../domain/enums/article_status.dart';
-import '../bloc/articles_cubit.dart';
-import '../bloc/articles_state.dart';
+import '../../../app_router/app.routes.dart';
+import '../auth/auth_cubit.dart';
+import 'articles_repository.dart';
+import 'article_status.dart';
+import 'articles_cubit.dart';
+import 'articles_state.dart';
 
 class ArticleDetailPage extends StatelessWidget {
   final String articleId;

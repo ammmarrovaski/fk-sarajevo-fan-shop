@@ -1,5 +1,5 @@
-import '../../domain/models/chat_model.dart';
-import '../../domain/models/message_model.dart';
+import 'chat_model.dart';
+import 'message_model.dart';
 
 enum ChatStatus {
   initial,

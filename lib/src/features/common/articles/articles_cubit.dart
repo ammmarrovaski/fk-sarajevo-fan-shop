@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../data/repositories/articles_repository.dart';
-import '../../domain/models/review_model.dart';
+import 'articles_repository.dart';
+import 'review_model.dart';
 import 'articles_state.dart';
 
 class ArticlesCubit extends Cubit<ArticlesState> {

@@ -3,10 +3,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../data/repositories/articles_repository.dart';
-import '../../domain/models/article_model.dart';
-import '../bloc/articles_cubit.dart';
-import '../bloc/articles_state.dart';
+import 'articles_repository.dart';
+import 'article_model.dart';
+import 'articles_cubit.dart';
+import 'articles_state.dart';
 
 class EditArticlePage extends StatelessWidget {
   final String articleId;

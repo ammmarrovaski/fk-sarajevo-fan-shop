@@ -3,11 +3,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
 import 'package:intl/intl.dart';
 
-import '../../../auth/presentation/bloc/auth_cubit.dart';
-import '../../data/repositories/chat_repository.dart';
-import '../../domain/models/message_model.dart';
-import '../bloc/chat_message_cubit.dart';
-import '../bloc/chat_state.dart';
+import '../auth/auth_cubit.dart';
+import 'chat_repository.dart';
+import 'message_model.dart';
+import 'chat_message_cubit.dart';
+import 'chat_state.dart';
 
 class ChatPage extends StatelessWidget {
   final String chatId;

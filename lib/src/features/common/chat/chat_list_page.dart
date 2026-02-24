@@ -4,12 +4,12 @@ import 'package:get_it/get_it.dart';
 import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 
-import '../../../auth/presentation/bloc/auth_cubit.dart';
-import '../../../auth/presentation/bloc/auth_state.dart';
-import '../../data/repositories/chat_repository.dart';
-import '../../domain/models/chat_model.dart';
-import '../bloc/chat_list_cubit.dart';
-import '../bloc/chat_state.dart';
+import '../auth/auth_cubit.dart';
+import '../auth/auth_state.dart';
+import 'chat_repository.dart';
+import 'chat_model.dart';
+import 'chat_list_cubit.dart';
+import 'chat_state.dart';
 
 class ChatListPage extends StatelessWidget {
   const ChatListPage({super.key});

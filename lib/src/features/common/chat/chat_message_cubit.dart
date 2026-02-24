@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../data/repositories/chat_repository.dart';
-import '../../domain/models/message_model.dart';
+import 'chat_repository.dart';
+import 'message_model.dart';
 import 'chat_state.dart';
 
 class ChatMessageCubit extends Cubit<ChatMessageState> {

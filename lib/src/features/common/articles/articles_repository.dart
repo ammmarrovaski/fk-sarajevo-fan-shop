@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import '../data_sources/articles_data_source.dart';
-import '../../domain/models/article_model.dart';
-import '../../domain/models/review_model.dart';
+import 'articles_data_source.dart';
+import 'article_model.dart';
+import 'review_model.dart';
 
 class ArticlesRepository {
   final ArticlesDataSource articlesDataSource;
